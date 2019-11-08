@@ -15,10 +15,20 @@ function love.load()
   y = 300
 time = 6000 -- store a big numer in time
 
-  img = love.graphics.newImage('assets-1/player/base/octopode_1.png')
 ex = 100
 ey = 100
-elimg = love.graphics.newImage('assets-1/player/base/octopode_2.png')
+elimg = love.graphics.newImage('assets-1/player/base/octopode_1.png')
+
+  enemy = {
+    x = 100,
+    y = 100,
+  img = love.graphics.newImage('assets-1/player/base/octopode_1.png')
+}
+octopode = {
+  x = 150,
+  y = 300,
+    img = love.graphics.newImage('assets-1/player/base/octopode_1.png')
+}
 
   playerImg = love.graphics.newImage('assets-1/player/transform/dragon_form.png')
   --playerImg = love.graphics.newImage('assets-1/player/base/octopode_1.png')
