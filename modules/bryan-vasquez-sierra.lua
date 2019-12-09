@@ -29,6 +29,8 @@ octopode = {
   y = 300,
     img = love.graphics.newImage('assets-1/player/base/octopode_1.png')
 }
+octopode.x = octopode.x + 1
+
 
   playerImg = love.graphics.newImage('assets-1/player/transform/dragon_form.png')
   --playerImg = love.graphics.newImage('assets-1/player/base/octopode_1.png')
